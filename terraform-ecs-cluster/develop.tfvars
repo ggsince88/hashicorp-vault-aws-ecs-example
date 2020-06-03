@@ -1,0 +1,12 @@
+region = "us-west-2"
+environment = "develop"
+vpc_id = "vpc-XXXXX"
+vpc_zone_identifier = ["subnet-XXX", "subnet-ZZZ", "subnet-YYY"]
+ecs_capacity_provider_name = "utility-01-010"
+cluster_size_min = 1
+cluster_size_max = 3
+cluster_desired_capacity = 3
+elb_subnets = ["subnet-XXX", "subnet-ZZZ", "subnet-YYY"]
+internal_elb = true
+route53_zone_id = "Z0XXXX"
+vault_subdomain = "vault-test"
